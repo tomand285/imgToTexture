@@ -1,6 +1,6 @@
 /**
  * @author Andrew Tomko
- * https://github.com/
+ * https://github.com/tomand285/imgToTexture
  *
  * This is a Node.js program for converting all image files in the current dir into one file called textues.js to hold base64 data
  */

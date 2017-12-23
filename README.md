@@ -12,9 +12,9 @@ The output format is based off of [this tool](http://graphics.cs.wisc.edu/Course
 * You must have [Node.js](https://nodejs.org/en/) downloaded onto your computer in order for this program to run.
 * Either copy or download makeTextures.js and run using Node.js.
 * Save a copy of this program in the directory of your textures and run via the terminal:
-``
+```
 node maketextures.js
-``
+```
 * The new file will be called:
 ``
 textures.js
@@ -22,16 +22,16 @@ textures.js
 
 ###How to use textures.js in your program? ###
 * In html file:
-``
+```
 <script src="textureFolder/textures.js"></script>
-``
+```
 * In the texture part of your code:
 ```
 var image = new Image();
 image.crossOrigin = "anonymous";
 image.src = LoadedImageFiles["myTexture.jpg"];
 image.onload = function(){
-//TODO: add texture code here
+	//TODO: add texture code here
 }
 ```
 
