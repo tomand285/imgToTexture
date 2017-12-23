@@ -37,6 +37,7 @@ function base64_encode(file){
 
 /**
  *	Returns the index of the JSON object
+ *	@param {string} string - extension of the file	
  *	@returns {int} index of JSON object
  */
 function indexOfJSON(string){
