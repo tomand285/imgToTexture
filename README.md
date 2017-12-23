@@ -20,7 +20,7 @@ node maketextures.js
 textures.js
 ``
 
-###How to use textures.js in your program? ###
+### How to use textures.js in your program? ###
 * In html file:
 ```
 <script src="textureFolder/textures.js"></script>
